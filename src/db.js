@@ -5,7 +5,7 @@ const pool = promise.createPool({
   user: "root",
   password: "",
   port: 3306,
-  database: "users-api",
+  database: "usersapi",
 });
 
 module.exports = pool;
