@@ -4,8 +4,7 @@ Esta es una API RESTful simple creada con Node.js y MySQL que permite realizar o
 ## Configuración del Proyecto
 1. Clona el repositorio:
 ```
-git clone https://github.com/tu-usuario/api-restful-node-mysql.git
-cd api-restful-node-mysql
+git clone https://github.com/jtula/users-api.git
 ```
 2. Instala las dependencias:
 ```
@@ -15,7 +14,6 @@ npm install
   - Asegúrate de tener MySQL instalado y ejecutándose.
   - Crea una base de datos llamada usersapi.
   - Ejecuta el script SQL ./databases/db.sql para crear la tabla de usuarios.
-
 
   ## Variables de entorno
   Crea un archivo .env en la raíz del proyecto con las siguientes variables de entorno:
@@ -40,7 +38,6 @@ npm install
   - `DELETE /users/:id`: Elimina un usuario por su ID.
 
   ## Ejecutar Pruebas
-  Para ejecutar las pruebas, asegúrate de tener configuradas correctamente la base de datos y la aplicación en ejecución:
   ```
   npm test
   ```
