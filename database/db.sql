@@ -1,12 +1,9 @@
-CREATE DATABASE usersapi;
+CREATE DATABASE IF NOT EXISTS usersapi;
 
-use usersapi;
+USE usersapi;
 
-CREATE TABLE user (
-  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(50) NOT NULL,
   email VARCHAR(255) NOT NULL,
 );
-
-show tables;
-describe user;
